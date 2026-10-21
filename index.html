@@ -201,6 +201,7 @@
     display: flex; flex-wrap: wrap; gap: var(--sc-3) var(--sc-6); align-items: baseline; justify-content: space-between; font-size: var(--sc-t-sm); color: var(--sc-ink-soft); }
   .foot .home i { color: var(--sc-ink); font-style: normal; }
   @media (max-width: 860px) { .close__inner h2 { font-size: var(--sc-t-3xl); } .close .brandmark { top: auto; bottom: 16svh; translate: none; height: min(30svh, 52vw); } }
+  @media (max-width: 860px) and (max-height: 800px) { .close .brandmark { bottom: 24svh; height: min(22svh, 40vw); } }
 
   /* reduced motion: the same compositions, standing still */
   @media (prefers-reduced-motion: reduce) {
@@ -225,7 +226,7 @@
 
 <header class="bar">
   <a class="mark" href="#top" aria-label="Khaya IQ, back to top"><img src="assets/mark.png" alt="" width="28" height="28">Khaya IQ</a>
-  <a class="btn btn--quiet" href="#get">Coming to Google Play</a>
+  <a class="btn btn--quiet" href="https://play.google.com/store/apps/details?id=com.gaijien1.khaya_iq">Get it on Google Play</a>
 </header>
 
 <main id="main">
@@ -239,9 +240,9 @@
         <h1 class="sc-display" data-sc-cue="0 0.92 0" data-sc-kinetic="lines">Know your property.</h1>
         <div class="hero-rest" data-sc-cue="0 0.92 0">
           <p class="sc-lede">Import the PDF bill your municipality emails you. See what changed, where the money went, and what you usually pay.</p>
-          <a class="btn" href="#get">
+          <a class="btn" href="https://play.google.com/store/apps/details?id=com.gaijien1.khaya_iq">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12m0 0-5-5m5 5 5-5M5 21h14"/></svg>
-            Coming to Google Play
+            Get it on Google Play
           </a>
           <p class="tag">Android, for South African homes. Your bills are never uploaded.</p>
         </div>
@@ -366,7 +367,7 @@
         <p data-sc-cue="0.08">No account. No ads. Your bills are never uploaded.</p>
         <a class="btn" href="https://play.google.com/store/apps/details?id=com.gaijien1.khaya_iq" data-sc-magnet="0.26" data-sc-cue="0.08" data-sc-rise="0">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12m0 0-5-5m5 5 5-5M5 21h14"/></svg>
-          Coming to Google Play
+          Get it on Google Play
         </a>
       </div>
       <footer class="foot">
