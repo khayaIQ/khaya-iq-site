@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en-ZA">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Privacy policy · Khaya IQ</title>
+<meta name="description" content="How Khaya IQ handles your information. Your bills are processed on your phone and never uploaded.">
+<link rel="icon" href="assets/mark.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="scrollcraft.css">
+<style>
+  :root {
+    --sc-canvas: #071C2A; --sc-surface: #0D2839; --sc-ink: #F2F5F5; --sc-ink-soft: #A9BAC3;
+    --sc-accent: #36B89F; --sc-accent-ink: #071C2A;
+    --sc-font-display: "Inter", system-ui, sans-serif; --sc-font-text: "Inter", system-ui, sans-serif; --sc-font-mono: "Inter", system-ui, sans-serif;
+  }
+  .bar { display: flex; align-items: center; justify-content: space-between; height: 64px; padding-inline: var(--sc-gutter); border-bottom: 1px solid var(--sc-hairline); }
+  .mark { display: inline-flex; align-items: center; gap: var(--sc-3); font-weight: 600; text-decoration: none; }
+  .mark img { width: 28px; height: 28px; }
+  .link { text-decoration: underline; text-decoration-color: color-mix(in oklab, var(--sc-ink) 35%, transparent); transition: text-decoration-color var(--sc-d-fast) var(--sc-ease-out); }
+  .link:hover { text-decoration-color: var(--sc-accent); }
+  .link:active { color: var(--sc-accent); }
+  .doc { display: grid; gap: var(--sc-8); padding-block: var(--sc-8) var(--sc-section); }
+  @media (min-width: 960px) { .doc { grid-template-columns: 16rem 1fr; } }
+  .toc { font-size: var(--sc-t-sm); }
+  @media (min-width: 960px) { .toc { position: sticky; top: var(--sc-6); align-self: start; } }
+  @media (max-width: 959px) { .toc { display: none; } }
+  .toc ol { list-style: none; padding: 0; margin: 0; }
+  .toc li + li { border-top: 1px solid var(--sc-hairline); }
+  .toc a { display: block; padding: var(--sc-3) 0; color: var(--sc-ink-soft); text-decoration: none; transition: color var(--sc-d-fast) var(--sc-ease-out); }
+  .toc a:hover { color: var(--sc-ink); }
+  .toc a:active { color: var(--sc-accent); }
+  h1 { font-family: var(--sc-font-display); font-weight: 600; font-size: var(--sc-t-3xl); letter-spacing: -0.04em; line-height: 1; margin: 0; }
+  .meta { display: flex; flex-wrap: wrap; gap: var(--sc-2) var(--sc-6); color: var(--sc-ink-soft); font-size: var(--sc-t-sm); margin-top: var(--sc-5); }
+  .meta b { color: var(--sc-ink); font-weight: 500; }
+  .summary { margin-top: var(--sc-7); padding: var(--sc-5) var(--sc-6); background: var(--sc-surface); border-radius: var(--sc-r-md); box-shadow: var(--sc-e1), var(--sc-edge); }
+  .summary p { margin: 0; font-size: var(--sc-t-lg); line-height: 1.45; letter-spacing: var(--sc-track-snug); max-width: 52ch; }
+  .clause { padding-top: var(--sc-8); scroll-margin-top: var(--sc-5); max-width: var(--sc-measure); }
+  .clause .n { display: none; }
+  .clause h2 { font-family: var(--sc-font-display); font-weight: 600; font-size: var(--sc-t-xl); letter-spacing: var(--sc-track-snug); line-height: 1.15; margin: 0 0 var(--sc-4); }
+  .clause p { color: var(--sc-ink-soft); margin: 0; }
+  .clause p + p { margin-top: var(--sc-4); }
+  .todo { background: #3A2C0C; color: #F4D58D; padding: 2px 8px; border-radius: var(--sc-r-sm); font-weight: 600; }
+  .foot { border-top: 1px solid var(--sc-hairline); padding-block: var(--sc-6); color: var(--sc-ink-soft); font-size: var(--sc-t-sm); }
+</style>
+</head>
+<body>
+<header class="bar">
+  <a class="mark" href="index.html"><img src="assets/mark.png" alt="" width="28" height="28">Khaya IQ</a>
+  <a class="link" href="index.html">Back to the site</a>
+</header>
+<main class="sc-wrap doc">
+  <nav class="toc" aria-label="Contents">
+    <ol>
+      <li><a href="#local">Local-first, privacy-first</a></li>
+      <li><a href="#device">What stays on your device</a></li>
+      <li><a href="#traffic">Other app traffic</a></li>
+      <li><a href="#diagnostics">Technical diagnostics</a></li>
+      <li><a href="#usage">Usage statistics</a></li>
+      <li><a href="#ads">Advertising</a></li>
+      <li><a href="#rights">Your rights</a></li>
+      <li><a href="#site">This website</a></li>
+      <li><a href="#contact">Contact and changes</a></li>
+    </ol>
+  </nav>
+  <article>
+    <h1>Privacy policy</h1>
+    <div class="meta">
+      <span><b>App</b> Khaya IQ for Android</span>
+      <span><b>Responsible party</b> Imbizo Labs</span>
+      <span><b>Last updated</b> 21 October 2026</span>
+    </div>
+    <div class="summary">
+      <p>In short: your bills are read and kept on your phone and are never uploaded. The app sends limited technical diagnostics and usage statistics, which you can switch off. Neither includes your bill content.</p>
+    </div>
+
+    <section class="clause" id="local"><span class="n">01</span><div>
+      <h2>Local-first, privacy-first</h2>
+      <p>Khaya IQ is built to be local-first and privacy-first. Your municipal bills (the documents you add, and the information Khaya IQ reads from them) are processed on your own device, not analysed or stored on a server.</p>
+    </div></section>
+
+    <section class="clause" id="device"><span class="n">02</span><div>
+      <h2>What stays on your device</h2>
+      <p>Bill PDFs, photos, and text read from them by on-device OCR, including account numbers, meter numbers, addresses, amounts, and any other information extracted from a bill, are not uploaded to Khaya IQ's servers. Reading and making sense of a bill happens entirely on your phone.</p>
+      <p>Your bills are stored encrypted on your phone, opened with your screen lock, and left out of cloud backups. Khaya IQ has no account and no sign-up.</p>
+    </div></section>
+
+    <section class="clause" id="traffic"><span class="n">03</span><div>
+      <h2>Other app traffic</h2>
+      <p>Khaya IQ does make some ordinary technical checks over the network: for example, checking which app features are currently available, and, if you turn on notifications, registering to receive them. These checks use a random ID that Google Firebase creates for this install of the app. None of this carries your bill content, and none of it is used to identify you personally.</p>
+    </div></section>
+
+    <section class="clause" id="diagnostics"><span class="n">04</span><div>
+      <h2>Technical diagnostics</h2>
+      <p>When the app crashes or hits an error, Khaya IQ sends limited technical diagnostics so we can find and fix the problem: technical details such as your device model, operating system and app version, where in the app the error happened, and a random ID for this install of the app. This is always on and cannot be turned off, because without it we cannot fix crashes. Diagnostics are not intended to contain your bill information. If usage statistics are on, a crash report also includes the screens you visited just before the crash.</p>
+      <p>The app also sends a short technical record each time it opens, so we can tell how often it crashes, and the text reader that reads scanned bills on your phone (Google ML Kit) sends Google technical details about how it ran. Neither includes your bill or any text read from it.</p>
+    </div></section>
+
+    <section class="clause" id="usage"><span class="n">05</span><div>
+      <h2>Usage statistics</h2>
+      <p>Khaya IQ sends usage statistics so we can see which parts of the app are used and where bill imports go wrong. These include which screens and features you use, whether an import worked, your app version and device model, your approximate location (such as your town or suburb, worked out from your internet connection, not GPS), and a random ID for this install of the app that is not linked to you. They are collected using Google Firebase.</p>
+      <p>Usage statistics never include your bills or anything read from them. They are on by default, and you are told about them before anything is sent. You can turn them off at any time in Settings → Privacy &amp; security. When you do, no new statistics are collected and the ID is reset. Statistics already sent are not affected.</p>
+    </div></section>
+
+    <section class="clause" id="ads"><span class="n">06</span><div>
+      <h2>Advertising</h2>
+      <p>Khaya IQ shows no ads and includes no advertising software. It does not read or use your phone's advertising ID.</p>
+    </div></section>
+
+    <section class="clause" id="rights"><span class="n">07</span><div>
+      <h2>Your rights</h2>
+      <p>Khaya IQ is made for people in South Africa, and the Protection of Personal Information Act (POPIA) applies. You may ask what personal information we hold about you, ask us to correct or delete it, and object to its processing. You can also complain to the Information Regulator of South Africa.</p>
+      <p>Because your bills never leave your phone, we do not hold them: you control them in the app, and deleting a bill or uninstalling the app removes it from your phone. Diagnostics and usage statistics are tied only to a random install ID, not to your name, so tell us the request concerns Khaya IQ and we will help as far as we can.</p>
+    </div></section>
+
+    <section class="clause" id="site"><span class="n">08</span><div>
+      <h2>This website</h2>
+      <p>This website sets no cookies and runs no tracking or usage statistics. It loads its typeface from Google Fonts, so your browser connects to Google's servers when you open it.</p>
+    </div></section>
+
+    <section class="clause" id="contact"><span class="n">09</span><div>
+      <h2>Contact and changes</h2>
+      <p>Questions or requests about your information: <span class="todo">[contact email: owner to add]</span>.</p>
+      <p>This policy describes how Khaya IQ handles your information today, and will be updated as the app changes. The date at the top shows when it last changed.</p>
+    </div></section>
+  </article>
+</main>
+<footer class="foot"><div class="sc-wrap"><a class="link" href="index.html">Khaya IQ</a> · For South African homes.</div></footer>
+</body>
+</html>
